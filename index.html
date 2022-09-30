@@ -12,37 +12,102 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
+    <!-- Mi estilo -->
+    <link rel="stylesheet" href="./css/styles.css">
+
     <title>Home</title>
 </head>
 
 <body>
+    <div id="header" class="container-fluid">
+        <div class="row fixed-top bg-dark ">
+            <div class="nav justify-content-center ">
 
-
-    <div class="">
-        <img src="https://plantillashtmlgratis.com/wp-content/themes/helium-child/vista_previa/page244/victory/assets/img/banner-bg.jpg"
-            class="img-fluid vh-100" alt="bg">
-
-        <div class="nav bg-light fixed-top bg-transparent d-flex justify-content-end align-items-center">
-            <p class="text-light h1 fixed-top m-2">CASCADA</p>
-            <div class="m-3 d-flex justify-content-end">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20%" fill="currentColor"
-                    class="bi nav bg-light opacity-75  border rounded" viewBox="0 0 16 15" data-bs-toggle="dropdown"
-                    role="button">
+                <svg id="despliegue" xmlns="http://www.w3.org/2000/svg" width="32" fill="currentColor" class="bi nav"
+                    viewBox="0 0 16 16 " data-bs-toggle="dropdown" role="button">
                     <path
-                        d="M1.5 0A1.5 1.5 0 0 0 0 1.5v2A1.5 1.5 0 0 0 1.5 5h13A1.5 1.5 0 0 0 16 3.5v-2A1.5 1.5 0 0 0 14.5 0h-13zm1 2h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zm9.927.427A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0l-.396-.396zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z" />
+                        d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 4a.5.5 0 0 0-.374.832l4 4.5a.5.5 0 0 0 .748 0l4-4.5A.5.5 0 0 0 12 6H4z" />
                 </svg>
 
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
                     <li><a class="active dropdown-item " href="../index.html">Home</a></li>
                     <li><a class="nav-link dropdown-item" href="../pages/menu.html">Menu</a></li>
                     <li><a class="nav-link dropdown-item" href="../pages/cocktails.html">Cocktails</a></li>
                     <li><a class="nav-link dropdown-item" href="../pages/contact.html">Contact Us</a></li>
                 </ul>
-
-
             </div>
+
         </div>
+
     </div>
+    <img src="https://plantillashtmlgratis.com/wp-content/themes/helium-child/vista_previa/page244/victory/assets/img/banner-bg.jpg"
+        alt="bg" class="bg-image img-fluid vw-100">
+
+    <div id="main" class="container">
+
+
+        <div class="row justify-content-center ">
+            <!-- poner un div col para cada card -->
+            <div class="card align-items-center col-6">
+                <img src="./images/Main/Bartender.ico" class="card-img-top" style="width: 16rem;" alt="Us">
+                <div class="card-body">
+                    <p class="card-text text-center">About us</p>
+                </div>
+                <div class="card-body">
+                    <p class="card-text text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Officiis reiciendis nesciunt id impedit omnis enim inventore pariatur rerum recusandae
+                        aperiam. Beatae veniam amet esse facere voluptas recusandae non voluptatibus consequatur
+                        illum sunt asperiores quaerat, nemo officiis perferendis error soluta dolores commodi
+                        necessitatibus culpa possimus obcaecati debitis quas quis. Quam, quas!</p>
+                </div>
+            </div>
+            <div class="card align-items-center col-6">
+                <img src="./images/Main/Napoletana.jpg" style="width: 16rem" ; class="card-img-top" alt="OurFood">
+                <div class="card-body">
+                    <p class="card-text text-center">About Our Food</p>
+                </div>
+                <div class="card-body">
+                    <p class="card-text text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Officiis reiciendis nesciunt id impedit omnis enim inventore pariatur rerum recusandae
+                        aperiam. Beatae veniam amet esse facere voluptas recusandae non voluptatibus consequatur
+                        illum sunt asperiores quaerat, nemo officiis perferendis error soluta dolores commodi
+                        necessitatibus culpa possimus obcaecati debitis quas quis. Quam, quas!</p>
+                </div>
+            </div>
+            <div class="card align-items-center col-12">
+                <img src="./images/Main/cockatails.jpg" style="width: 16rem;" class="card-img-top" alt="OurCockails">
+                <div class="card-body">
+                    <p class="card-text text-center">About Our Cocktails</p>
+                </div>
+                <div class="card-body">
+                    <p class="card-text text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Officiis reiciendis nesciunt id impedit omnis enim inventore pariatur rerum recusandae
+                        aperiam. Beatae veniam amet esse facere voluptas recusandae non voluptatibus consequatur
+                        illum sunt asperiores quaerat, nemo officiis perferendis error soluta dolores commodi
+                        necessitatibus culpa possimus obcaecati debitis quas quis. Quam, quas!</p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    </div>
+    <div id="footer" class="container-fluid fixed-bottom">
+        <div class="row bg-dark opacity-75 ">
+            <div class="col-fluid">
+                <p class="text-light h1 text-center">CASCADA</p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="bg-dark " style="height: 56px;"></div>
 
 </body>
 
