@@ -47,7 +47,7 @@ a:active {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
-#gradienteWelc {
+#separator{
 
 
     background: rgb(0, 0, 0);
@@ -59,5 +59,17 @@ a:active {
 
     background: rgb(248,175,250);
     background: linear-gradient(0deg, rgba(149,245,255,1) 0%, rgba(255,255,255,1) 30%);
+
+}
+#card-color-2:hover {
+
+    background: rgb(255,149,149);
+    background: linear-gradient(0deg, rgba(255,149,149,1) 0%, rgba(255,255,255,1) 30%);
+
+}
+#card-color-3:hover {
+
+    background: rgb(153,255,149);
+background: linear-gradient(0deg, rgba(153,255,149,1) 0%, rgba(255,255,255,1) 30%);
 
 }
