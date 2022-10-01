@@ -5,8 +5,11 @@
 
 body {
     font-family: Cascada;
-}
+    background: rgb(193,193,193);
+background: linear-gradient(90deg, rgba(193,193,193,0.5018382352941176) 0%, rgba(255,255,255,1) 50%, rgba(193,193,193,0.5) 100%);
 
+    
+}
 
 
 a {
@@ -17,18 +20,13 @@ a:visited {
     text-decoration: none;
 }
 
-/* mouse over link */
+
 a:hover {
     color: hotpink;
 }
 
-#despliegue {
-    color: white;
-}
-
-/* selected link */
 a:active {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .brillo {
@@ -73,3 +71,6 @@ a:active {
 background: linear-gradient(0deg, rgba(153,255,149,1) 0%, rgba(255,255,255,1) 30%);
 
 }
+
+
+   
