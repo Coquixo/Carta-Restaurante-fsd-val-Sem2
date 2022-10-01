@@ -20,22 +20,15 @@
 
 <body>
     <div id="header" class="container-fluid">
-        <div class="row fixed-top">
-            <div  id="gradientetop"  class="nav justify-content-center opacity-75 ">
+        <div id="gradientetop" class="row fixed-top text-center justify-content-center opacity-75 ">
 
-                <svg id="despliegue" xmlns="http://www.w3.org/2000/svg" width="32" fill="currentColor" class="bi nav "
-                    viewBox="0 0 16 16 " data-bs-toggle="dropdown" role="button">
-                    <path
-                        d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 4a.5.5 0 0 0-.374.832l4 4.5a.5.5 0 0 0 .748 0l4-4.5A.5.5 0 0 0 12 6H4z" />
-                </svg>
+            <a class="h4 col-3 text-decoration-none" href="./index.html">Home</a>
 
-                <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
-                    <li><a class="active dropdown-item " href="../index.html">Home</a></li>
-                    <li><a class="nav-link dropdown-item" href="../pages/menu.html">Menu</a></li>
-                    <li><a class="nav-link dropdown-item" href="../pages/cocktails.html">Cocktails</a></li>
-                    <li><a class="nav-link dropdown-item" href="../pages/contact.html">Contact Us</a></li>
-                </ul>
-            </div>
+            <a class="h4 col-3 text-decoration-none" href="./pages/menu.html">Menu</a>
+
+            <a class="h4 col-3 text-decoration-none" href="./pages/cocktails.html">Cocktails</a>
+
+            <a class="h4 col-3 text-decoration-none" href="./pages/contact.html">Contact Us</a>
 
         </div>
 
@@ -44,14 +37,14 @@
     <div class="row-fluid align-items-center">
         <img src="https://plantillashtmlgratis.com/wp-content/themes/helium-child/vista_previa/page244/victory/assets/img/banner-bg.jpg"
             alt="bg" class="bg-image img-fluid vw-100 brillo ">
-        <p class="mt-3 h1 text-center">WELCOME TO..</p>
+        <p class="mt-3 h1 text-center" id="gradienteWelc">WELCOME TO..</p>
     </div>
-    <div id="main" class="container">
 
+    <div id="main" class="container">
 
         <div class="row justify-content-center  ">
             <!-- poner un div col para cada card -->
-            <div class="card align-items-center col-sm-6 py-5">
+            <div id="card-color"  class="card align-items-center col-sm-6 py-5">
 
                 <img src="./images/Main/Bartender.ico" class="card-img-top" style="width: 16rem;" alt="Us">
                 <div class="card-body">
@@ -66,7 +59,7 @@
                 </div>
 
             </div>
-            <div class="card align-items-center col-sm-6 py-5">
+            <div id="card-color"  class="card align-items-center col-sm-6 py-5">
                 <img src="./images/Main/Napoletana.jpg" style="width: 16rem" ; class="card-img-top" alt="OurFood">
                 <div class="card-body">
                     <p class="card-text text-center">About Our Food</p>
@@ -79,8 +72,8 @@
                         necessitatibus culpa possimus obcaecati debitis quas quis. Quam, quas!</p>
                 </div>
             </div>
-            <div class="card align-items-center col-sm-12 py-5">
-                <img src="./images/Main/cockatails.jpg" style="width: 16rem;" class="card-img-top" alt="OurCockails">
+            <div id="card-color" class="card align-items-center col-sm-12 py-5">
+                <img  src="./images/Main/cockatails.jpg" style="width: 16rem;" class="card-img-top" alt="OurCockails">
                 <div class="card-body">
                     <p class="card-text text-center">About Our Cocktails</p>
                 </div>
@@ -99,10 +92,6 @@
 
     </div>
 
-
-
-
-    </div>
     <div id="footer" class="container-fluid fixed-bottom">
         <div class="row opacity-75 ">
             <div class="col-fluid" id="gradientebot">

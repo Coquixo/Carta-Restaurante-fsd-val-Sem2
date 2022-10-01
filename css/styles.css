@@ -3,12 +3,32 @@
     src: url("/fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf");
 }
 
-p {
+body {
     font-family: Cascada;
+}
+
+
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
 }
 
 #despliegue {
     color: white;
+}
+
+/* selected link */
+a:active {
+    color: rgb(255, 255, 255);
 }
 
 .brillo {
@@ -23,6 +43,21 @@ p {
 }
 
 #gradientebot {
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+#gradienteWelc {
+
+
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(43, 43, 43, 1) 69%, rgba(0, 0, 0, 1) 100%);
+}
+
+#card-color:hover {
+
+
+    background: rgb(248,175,250);
+    background: linear-gradient(0deg, rgba(149,245,255,1) 0%, rgba(255,255,255,1) 30%);
+
 }
