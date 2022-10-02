@@ -44,7 +44,7 @@ Responsive Device View (Iphone 12 Pro)
 
 ![img](./images/Screenshots/Responsive-view/Home-R-1.PNG)
 ![img](./images/Screenshots/Responsive-view/Home-R-2.PNG)
-![img](./images/Screenshots/Responsive-view/Home-R-3.PNG)
+![img](./images/Screenshots/Responsive-view/HOME-R-3.PNG)
 ![img](./images/Screenshots/Responsive-view/Menu-R-1.PNG)
 ![img](./images/Screenshots/Responsive-view/Menu-R-2.PNG)
 ![img](./images/Screenshots/Responsive-view/Menu-R-3.PNG)
