@@ -29,7 +29,7 @@ The main theme would be pizzas and cocktails, we also want to add more variety i
 ## Demo
 Computer View:
 
-![img](/Carta-Restaurante-fsd-val-Sem2/images/Screenshots/Computer-View/Home-1.PNG)
+![img](/images/Screenshots/Computer-View/Home-1.PNG)
 ![img](/Carta-Restaurante-fsd-val-Sem2/images/Screenshots/Computer-View/Home-2.PNG)
 ![img](/Carta-Restaurante-fsd-val-Sem2/images/Screenshots/Computer-View/Home-3.PNG)
 ![img](/Carta-Restaurante-fsd-val-Sem2/images/Screenshots/Computer-View/Home-4.PNG)
