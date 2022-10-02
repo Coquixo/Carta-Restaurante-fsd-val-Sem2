@@ -5,10 +5,10 @@
 
 body {
     font-family: Cascada;
-    background: rgb(193,193,193);
-background: linear-gradient(90deg, rgba(193,193,193,0.5018382352941176) 0%, rgba(255,255,255,1) 50%, rgba(193,193,193,0.5) 100%);
+    background: rgb(193, 193, 193);
+    background: linear-gradient(90deg, rgba(193, 193, 193, 0.5018382352941176) 0%, rgba(255, 255, 255, 1) 50%, rgba(193, 193, 193, 0.5) 100%);
 
-    
+
 }
 
 
@@ -45,32 +45,38 @@ a:active {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
-#separator{
+#separator {
 
 
     background: rgb(0, 0, 0);
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(43, 43, 43, 1) 69%, rgba(0, 0, 0, 1) 100%);
 }
 
+#separator2 {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.9192051820728291) 50%, rgba(255,255,255,0) 100%);
+    color: white;
+}
+
+
 #card-color:hover {
 
 
-    background: rgb(248,175,250);
-    background: linear-gradient(0deg, rgba(149,245,255,1) 0%, rgba(255,255,255,1) 30%);
+    background: rgb(248, 175, 250);
+    background: linear-gradient(0deg, rgba(149, 245, 255, 1) 0%, rgba(255, 255, 255, 1) 30%);
 
 }
+
 #card-color-2:hover {
 
-    background: rgb(255,149,149);
-    background: linear-gradient(0deg, rgba(255,149,149,1) 0%, rgba(255,255,255,1) 30%);
+    background: rgb(255, 149, 149);
+    background: linear-gradient(0deg, rgba(255, 149, 149, 1) 0%, rgba(255, 255, 255, 1) 30%);
 
 }
+
 #card-color-3:hover {
 
-    background: rgb(153,255,149);
-background: linear-gradient(0deg, rgba(153,255,149,1) 0%, rgba(255,255,255,1) 30%);
+    background: rgb(153, 255, 149);
+    background: linear-gradient(0deg, rgba(153, 255, 149, 1) 0%, rgba(255, 255, 255, 1) 30%);
 
 }
-
-
-   
