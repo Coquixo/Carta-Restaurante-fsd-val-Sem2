@@ -12,20 +12,21 @@ body {
 }
 
 
-a {
+li a{
     color: rgb(255, 255, 255);
+    font-size: large;
 }
 
-a:visited {
+li a:link {
     text-decoration: none;
 }
 
 
-a:hover {
+li a:hover {
     color: hotpink;
 }
 
-a:active {
+li a:active {
     color: rgb(0, 0, 0);
 }
 
