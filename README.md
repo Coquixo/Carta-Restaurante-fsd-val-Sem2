@@ -18,7 +18,7 @@ The main theme would be pizzas and cocktails, we also want to add more variety i
 
 - [General Information](#general-information)   
 - [Appendix](#appendix)   
-- [Demo](#demo)   
+- [Screenshots](#screenshots)   
 - [Deployment](#deployment)   
 - [Technologies](#technologies-and-library)   
 - [Environment Install](#environment-install)   
@@ -26,14 +26,12 @@ The main theme would be pizzas and cocktails, we also want to add more variety i
 - [Badges](#badges)   
 
 ***
-## Demo
+## Screenshots
 Computer View:
 
 ![img](./images/Screenshots/Computer-View/Home-1.PNG)
 ![img](./images/Screenshots/Computer-View/Home-2.PNG)
 ![img](./images/Screenshots/Computer-View/Home-3.PNG)
-![img](./images/Screenshots/Computer-View/Home-4.PNG)
-![img](./images/Screenshots/Computer-View/Home-5.PNG)
 ![img](./images/Screenshots/Computer-View/Menu-1.PNG)
 ![img](./images/Screenshots/Computer-View/Menu-2.PNG)
 ![img](./images/Screenshots/Computer-View/Menu-3.PNG)
@@ -42,18 +40,8 @@ Computer View:
 
 Responsive Device View (Iphone 12 Pro)
 
-![img](./images/Screenshots/Responsive-view/Home-R-1.PNG)
-![img](./images/Screenshots/Responsive-view/Home-R-2.PNG)
-![img](./images/Screenshots/Responsive-view/HOME-R-3.PNG)
-![img](./images/Screenshots/Responsive-view/Menu-R-1.PNG)
-![img](./images/Screenshots/Responsive-view/Menu-R-2.PNG)
-![img](./images/Screenshots/Responsive-view/Menu-R-3.PNG)
-![img](./images/Screenshots/Responsive-view/Menu-R-4.PNG)
-![img](/images/Screenshots/Responsive-view/Cocktails-R-1.PNG)
-![img](./images/Screenshots/Responsive-view/Cocktails-R-2.PNG)
-![img](./images/Screenshots/Responsive-view/Cocktails-R-3.PNG)
-![img](./images/Screenshots/Responsive-view/Cocktails-R-4.PNG)
-![img](./images/Screenshots/Responsive-view/Contact-Us-R-1.PNG)
+![img](./images/Screenshots/Responsive-view/1-movile.PNG)![img](./images/Screenshots/Responsive-view/2-movile.PNG)![img](./images/Screenshots/Responsive-view/3-movile.PNG)![img](./images/Screenshots/Responsive-view/4-movile.PNG)
+![img](./images/Screenshots/Responsive-view/5-movile.PNG)
 ***
 ## Deployment
 
